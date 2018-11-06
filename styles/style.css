@@ -14,3 +14,12 @@ header,
  h3{
    font-family: Georgia, sans-serif;
  }
+
+body > header{
+  color: #f2f2f2;
+  background-color: rgb(38, 38, 38);
+}
+
+.logo{
+height: 21px;
+}
