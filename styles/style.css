@@ -1,20 +1,20 @@
 @import "reset.css";
-
+@import "fonts.css";
 * {
  box-sizing: border-box;
 
-  -webkit-font-smoothing: antialiased;
+ -webkit-font-smoothing: antialiased;
  -moz-osx-font-smoothing: grayscale;
 }
 
 header,
 .panel,
 .timestamp {
-  font-family: Arial, sans-serif;
+  font-family: "Proxima Nova", sans-serif;
 }
 
  h3{
-   font-family: Georgia, sans-serif;
+   font-family: "PF Regal", serif;
  }
 
 body > header {
@@ -46,6 +46,8 @@ body > header ul {
 
 body > header li {
   padding: 15px;
+
+  font-weight: 600;
 }
 
 header > ul {
@@ -64,7 +66,7 @@ header > ul {
   border-bottom: 1px solid #ccc;
   background-color: #fff;
 
-  font-weight: bold;
+  font-weight:600;
 }
 
 .panel button{
@@ -90,10 +92,13 @@ section {
 
 .top-stories {
   height: 350px;
+  padding: 16px 18px;
 }
 
 .container {
   display: flex;
+
+  padding: 8px 0 21px;
 }
 
 .is-important {
