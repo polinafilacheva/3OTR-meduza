@@ -82,7 +82,7 @@ main {
 }
 
 section {
-  width: 90vw;
+  width: 97vw;
   margin: 0 auto;
 
   border: 1px solid #ccc;
@@ -95,14 +95,39 @@ section {
   padding: 16px 18px;
 }
 
+.top-stories__header {
+  padding: 16px 18px 0;
+
+  text-transform: uppercase;
+
+  color: gray;
+
+  font-size: 14px;
+  font-weight: 600;
+}
+
 .container {
   display: flex;
 
-  padding: 8px 0 21px;
+  padding: 0 18px 18px;
+}
+
+.card {
+  height: 130px;
+  margin-top: 15px;
+  padding-right: 25px;
 }
 
 .is-important {
+  display: flex;
+
   width: 50%;
+
+  flex-flow: column;
+}
+
+.is-important h3 {
+  font-size: 34px;
 }
 
 .right {
@@ -117,11 +142,18 @@ section {
    display: flex;
 
    width: 50%;
-   height: 100%;
 
    flex-flow: column nowrap;
   }
 
   .right .card h3{
+    font-size: 20px;
+
     flex: 1px;
+  }
+
+  .timestamp {
+    color: gray;
+
+    font-size: 12px;
   }
