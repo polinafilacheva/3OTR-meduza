@@ -1,6 +1,6 @@
 @import "reset.css";
 
-*{
+* {
  box-sizing: border-box;
 
   -webkit-font-smoothing: antialiased;
@@ -9,7 +9,7 @@
 
 header,
 .panel,
-.timestamp{
+.timestamp {
   font-family: Arial, sans-serif;
 }
 
@@ -17,7 +17,7 @@ header,
    font-family: Georgia, sans-serif;
  }
 
-body > header{
+body > header {
   display: flex;
 
   letter-spacing: 1px;
@@ -32,19 +32,19 @@ body > header{
   align-items: center;
 }
 
-.logo{
+.logo {
   height: 21px;
   margin-top: -6px;
   margin-left: 15px;
 }
 
-body > header ul{
+body > header ul {
   display: flex;
 
   padding-top: 5px;
 }
 
-body > header li{
+body > header li {
   padding: 15px;
 }
 
@@ -55,7 +55,7 @@ header > ul {
   align-items: center;
 }
 
-.panel{
+.panel {
   position: relative;
 
   height: 45px;
@@ -72,14 +72,14 @@ header > ul {
   right: 0;
 }
 
-main{
+main {
   height: 100vh;
   padding-top: 18px;
 
   background-color: rgb(242, 242, 242);
 }
 
-section{
+section {
   width: 90vw;
   margin: 0 auto;
 
@@ -88,34 +88,35 @@ section{
   background-color: #fff;
 }
 
-.container{
+.top-stories {
+  height: 350px;
+}
+
+.container {
   display: flex;
 }
 
-.is-important{
+.is-important {
   width: 50%;
-  margin-right: 15px;
-  padding: 20px 18px 21px;
 }
-.right{
+
+.right {
   display: flex;
 
   width: 50%;
 
   flex-flow: row wrap;
   }
-  .right .card{
-    display: inline-flex;
 
-    width: 50%;
-    margin-top: 16%;
-    padding: 15px 15px 14px;
+  .right .card {
+   display: flex;
 
-    flex-flow: column nowrap;
+   width: 50%;
+   height: 100%;
+
+   flex-flow: column nowrap;
   }
 
-  .timestamp{
-    position: relative;
-
-    display: inline-flex;
+  .right .card h3{
+    flex: 1px;
   }
